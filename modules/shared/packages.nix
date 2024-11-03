@@ -9,6 +9,8 @@ with pkgs; [
   bat
   btop
   coreutils
+  curl                      # Added: HTTP client
+  git                       # Added: Version control
   killall
   neofetch
   openssh
@@ -25,6 +27,8 @@ with pkgs; [
   # Cloud-related tools and SDKs
   docker
   docker-compose
+  google-cloud-sdk         # Added: GCP tools
+
 
   # Media-related packages
   emacs-all-the-icons-fonts
@@ -57,5 +61,7 @@ with pkgs; [
 
   # Python packages
   python311
-  python311Packages.virtualenv # globally install virtualenv
+  poetry
+  poetry2nix
+  mach-nix
 ]
