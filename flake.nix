@@ -31,8 +31,12 @@
       url = "git+ssh://git@github.com/jj3ny/nix-secrets.git";
       flake = false;
     };
+    poetry2nix = {
+      url = "github:nix-community/poetry2nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
-  outputs = { self, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, home-manager, nixpkgs, disko, agenix, secrets } @inputs:
+  outputs = { self, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, home-manager, nixpkgs, disko, agenix, secrets, poetry2nix } @inputs:
     let
       user = "johnhughes";
       linuxSystems = [ "x86_64-linux" "aarch64-linux" ];
