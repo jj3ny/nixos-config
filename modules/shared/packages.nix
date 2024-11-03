@@ -62,5 +62,4 @@ with pkgs; [
   # Python packages
   python311
   poetry
-  mach-nix
 ]
