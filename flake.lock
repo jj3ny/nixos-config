@@ -332,7 +332,24 @@
         "homebrew-cask": "homebrew-cask",
         "homebrew-core": "homebrew-core",
         "nix-homebrew": "nix-homebrew",
-        "nixpkgs": "nixpkgs_5"
+        "nixpkgs": "nixpkgs_5",
+        "secrets": "secrets"
+      }
+    },
+    "secrets": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1730574442,
+        "narHash": "sha256-7VWv/Dq3pRwlq8VYg4clCBPIm3mJOluYTIe7eObEqFs=",
+        "ref": "refs/heads/main",
+        "rev": "ef0b479c1d712d8ca7df3daf5e0da41c183f2aba",
+        "revCount": 2,
+        "type": "git",
+        "url": "ssh://git@github.com/jj3ny/nix-secrets.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "ssh://git@github.com/jj3ny/nix-secrets.git"
       }
     },
     "systems": {
