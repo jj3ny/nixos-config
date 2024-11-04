@@ -64,5 +64,6 @@ with pkgs; [
 
   # Python packages
   python311
+  python311Packages.virtualenv
   poetry
 ]
