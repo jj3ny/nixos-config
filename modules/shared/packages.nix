@@ -46,6 +46,9 @@ with pkgs; [
   nodePackages.prettier
   nodejs
 
+  # Scraping and download tools
+  yt-dlp
+
   # Text and terminal utilities
   htop
   hunspell
