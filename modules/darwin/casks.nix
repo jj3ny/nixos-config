@@ -26,7 +26,6 @@ _:
   # Productivity Tools
   "magnet"
   "raycast"
-  "rustdesk-flutter" #trying
 
   # Browsers
   "google-chrome"
