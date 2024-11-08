@@ -37,9 +37,9 @@ with pkgs; [
   pandoc             # = KEPT
   
   # Python Development
-  python311                    # ^ UPGRADED from python39
+  python312                    # ^ UPGRADED from python39
   poetry                       # + NEW: Dependency management
-  python311Packages.virtualenv # ^ UPGRADED from python39
+  python312Packages.virtualenv # ^ UPGRADED from python39
   black                        # = KEPT: Formatter
   
   # Node.js Development
