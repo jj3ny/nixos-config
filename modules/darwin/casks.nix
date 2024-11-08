@@ -5,7 +5,7 @@ _:
   "homebrew/cask/docker"
   # "visual-studio-code"
   "cursor"
-  "github-desktop"
+  "github"
   "postman"
   "db-browser-for-sqlite"
 
@@ -24,7 +24,7 @@ _:
   "sonos"
 
   # Productivity Tools
-  "magnet"
+  "rectangle"
   "raycast"
 
   # Browsers
@@ -43,10 +43,9 @@ _:
   "google-drive"
   "megasync"
   "onedrive"
-  # "syncthing" ### Leave this one commented out
 
   # Security & Privacy
-  "dashlane"
+  "1password"
   "nordvpn"
   "proton-mail"
 ]

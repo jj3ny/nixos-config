@@ -1,69 +1,127 @@
 { pkgs }:
 
 with pkgs; [
-  # General packages for development and system management
-  # alacritty
-  aspell
-  aspellDicts.en
-  bash-completion
-  bat
-  btop
-  coreutils
-  curl                      # Added: HTTP client
-  git                       # Added: Version control
-  killall
-  neofetch
-  openssh
-  sqlite
-  wget
-  zip
-
-  # Encryption and security tools
-  age
-  age-plugin-yubikey
-  gnupg
-  libfido2
-
-  # Cloud-related tools and SDKs
-  docker
-  docker-compose
-  google-cloud-sdk         # Added: GCP tools
-
-
-  # Media-related packages
-  emacs-all-the-icons-fonts
-  dejavu_fonts
-  ffmpeg
-  fd
-  font-awesome
-  hack-font
-  noto-fonts
-  noto-fonts-emoji
-  meslo-lgs-nf
-
-  # Node.js development tools
-  nodePackages.npm # globally install npm
-  nodePackages.prettier
-  nodejs
-
-  # Scraping and download tools
-  yt-dlp
-
-  # Text and terminal utilities
-  htop
-  hunspell
-  iftop
-  jetbrains-mono
-  jq
-  ripgrep
-  tree
-  tmux
-  unrar
-  unzip
-  zsh-powerlevel10k
-
-  # Python packages
-  python311
-  python311Packages.virtualenv
-  poetry
+  # Learning & CLI Enhancement
+  tldr          # + NEW: Simplified man pages
+  # tealdeer      # + NEW: Faster tldr implementation (disabled)
+  navi          # + NEW: Interactive cheatsheet
+  zoxide        # + NEW: Smart cd replacement
+  thefuck       # + NEW: Command correction
+  mcfly         # + NEW: Smart history search
+  # atuin         # + NEW: AI-powered history (disabled)
+  
+  # Modern CLI Tools
+  bat           # = KEPT: Better cat
+  eza           # + NEW: Modern ls replacement
+  fd            # = KEPT: Find replacement
+  fzf           # = KEPT: Fuzzy finder
+  difftastic    # = KEPT: Better diff
+  # du-dust     # = KEPT: Disk usage (disabled)
+  broot       # + NEW: Better tree
+  duf         # + NEW: Better df
+  # ncdu        # + NEW: Disk analyzer (disabled)
+  bottom      # + NEW: Modern system monitor
+  xh          # + NEW: Curl alternative
+  dog         # + NEW: Dig alternative
+  
+  # Core Development
+  git                # = KEPT
+  lazygit            # + NEW: Git UI
+  delta              # + NEW: Git diff tool
+  gh                 # = KEPT: GitHub CLI
+  copilot-cli        # + NEW: GitHub Copilot
+  # - git-filter-repo  # - REMOVED: Specialized tool
+  curl               # + NEW
+  wget               # = KEPT
+  gcc                # = KEPT
+  pandoc             # = KEPT
+  
+  # Python Development
+  python311                    # ^ UPGRADED from python39
+  poetry                       # + NEW: Dependency management
+  python311Packages.virtualenv # ^ UPGRADED from python39
+  black                        # = KEPT: Formatter
+  
+  # Node.js Development
+  nodejs                   # = KEPT
+  nodePackages.npm         # = KEPT
+  nodePackages.prettier    # = KEPT
+  nodePackages.nodemon     # = KEPT
+  nodePackages.live-server # = KEPT
+  # nodePackages.repomix   # + NEW: Repo access for AI (disabled)
+  
+  # Document & PDF Tools (All New)
+  poppler_utils # + NEW: PDF utilities
+  tesseract     # + NEW: OCR engine
+  ocrmypdf      # + NEW: PDF OCR
+  pdftk         # + NEW: PDF toolkit
+  glow            # ^ MOVED from Media category
+  
+  # Media & File Processing
+  ffmpeg        # = KEPT
+  yt-dlp        # + NEW
+  imagemagick   # = KEPT
+  jpegoptim     # = KEPT
+  pngquant      # = KEPT
+  # - dejavu_fonts   # - REMOVED: Using other fonts
+  # - font-awesome   # - REMOVED: Not needed
+  # - hack-font      # - REMOVED: Using JetBrains Mono
+  
+  # Cloud & Container Tools
+  docker             # = KEPT (was commented out)
+  docker-compose     # = KEPT (was commented out)
+  google-cloud-sdk   # = KEPT
+  act                # = KEPT
+  # - flyctl         # - REMOVED
+  # - go             # - REMOVED: Not needed for Python/Next.js
+  # - gopls          # - REMOVED: Go tooling
+  # - terraform      # - REMOVED: Infrastructure tooling
+  # - terraform-ls   # - REMOVED
+  # - tflint         # - REMOVED
+  
+  # Terminal & Editor
+  # vim              # + NEW (disabled)
+  warp-terminal      # + NEW: AI-powered terminal
+  tmux               # = KEPT
+  # - alacritty      # - REMOVED: Using Warp instead
+  # - neofetch       # - REMOVED: Not essential
+  # - slack          # - REMOVED: Using system app
+  # - jetbrains.phpstorm # - REMOVED: PHP tooling
+  
+  # Security & Encryption
+  age               # = KEPT
+  age-plugin-yubikey # = KEPT
+  gnupg             # = KEPT
+  openssh           # = KEPT
+  _1password-cli        # - REMOVED: Using system app
+  # - libfido2      # - REMOVED: Not essential
+  
+  # Fonts & Display
+  jetbrains-mono           # = KEPT
+  noto-fonts              # = KEPT
+  noto-fonts-emoji        # = KEPT
+  meslo-lgs-nf            # = KEPT
+  emacs-all-the-icons-fonts # = KEPT
+  
+  # System & Shell
+  zsh-powerlevel10k     # = KEPT
+  zsh-autosuggestions # + NEW
+  bash-completion       # = KEPT
+  coreutils            # = KEPT
+  htop                 # = KEPT
+  tree                 # = KEPT
+  unzip               # = KEPT
+  unrar               # = KEPT
+  sqlite              # = KEPT
+  # - killall         # - REMOVED: Not essential
+  # - iftop          # - REMOVED: Not essential
+  
+  # Text Processing & Spelling
+  aspell         # = KEPT
+  aspellDicts.en # = KEPT
+  hunspell       # = KEPT
+  
+  # Removed Categories:
+  # - All PHP packages and tools
+  # - Most infrastructure tools (Terraform etc.)
 ]
