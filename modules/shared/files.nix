@@ -14,4 +14,27 @@
     text = builtins.readFile ../shared/config/emacs/init.el;
   };
 
+  ".pnpm-packages/bin/.keep" = {
+    text = "";
+  };
+  
+  "Development/legal/related/.keep" = {
+    text = "";
+  };
+  
+  "Development/research/llm/.keep" = {
+    text = "";
+  };
+  
+  "Development/research/ui/syncfusion/.keep" = {
+    text = "";
+  };
+  
+  "Development/tools/.keep" = {
+    text = "";
+  };
+  
+  "Development/experimental/_archive/.keep" = {
+    text = "";
+  };
 }
