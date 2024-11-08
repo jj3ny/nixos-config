@@ -67,7 +67,7 @@ let name = "John Hughes";
 
   git = {
     enable = true;
-    ignores = [ "*.swp" ];
+    ignores = [ "*.swp" "repomix-output.*" ];
     userName = name;
     userEmail = email;
     lfs = {
