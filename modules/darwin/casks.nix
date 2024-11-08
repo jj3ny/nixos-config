@@ -18,6 +18,7 @@ _:
 
   # Utility Tools
   "syncthing"
+  "anydesk"
 
   # Entertainment Tools
   "vlc"
