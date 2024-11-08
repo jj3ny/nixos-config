@@ -27,6 +27,7 @@ _:
   # Productivity Tools
   "rectangle"
   "raycast"
+  "obsidian"
 
   # Browsers
   "google-chrome"

@@ -44,7 +44,7 @@ with pkgs; [
   
   # Node.js Development
   nodejs                   # = KEPT
-  nodePackages.npm         # = KEPT
+  nodePackages.pnpm         # = KEPT
   nodePackages.prettier    # = KEPT
   nodePackages.nodemon     # = KEPT
   nodePackages.live-server # = KEPT
