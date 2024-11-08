@@ -73,14 +73,18 @@ in
     dock = {
       enable = true;
       entries = [
-        { path = "/Applications/Slack.app/"; }
+        # { path = "/Applications/Slack.app/"; }
+        { path = "/Applications/Google Chrome.app/"; }
+        { path = "/Applications/Arc.app/"; }
+        { path = "/Applications/Obsidian.app/"; }
+        { path = "/Applications/Cursor.app/"; }
         { path = "/System/Applications/Messages.app/"; }
-        { path = "/System/Applications/Facetime.app/"; }
+        # { path = "/System/Applications/Facetime.app/"; }
         { path = "/System/Applications/Music.app/"; }
-        { path = "/System/Applications/News.app/"; }
+        # { path = "/System/Applications/News.app/"; }
         { path = "/System/Applications/Photos.app/"; }
-        { path = "/System/Applications/Photo Booth.app/"; }
-        { path = "/System/Applications/TV.app/"; }
+        # { path = "/System/Applications/Photo Booth.app/"; }
+        # { path = "/System/Applications/TV.app/"; }
         { path = "/System/Applications/Home.app/"; }
         {
           path = toString myEmacsLauncher;
