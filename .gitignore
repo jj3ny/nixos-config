@@ -3,3 +3,5 @@ result
 /result/*
 result/*
 repomix*
+Brewfile.backup
+Brewfile.current

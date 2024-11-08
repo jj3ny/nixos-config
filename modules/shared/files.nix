@@ -37,4 +37,32 @@
   "Development/experimental/_archive/.keep" = {
     text = "";
   };
+
+  ".config/repomix/repomix.config.json" = {
+    text = ''
+      {
+        "output": {
+          "filePath": "repomix-output.xml",
+          "style": "xml",
+          "removeComments": false,
+          "removeEmptyLines": false,
+          "copyToClipboard": true,
+          "topFilesLength": 25,
+          "showLineNumbers": false,
+          "instructionFilePath": ""
+        },
+        "include": ["**/*"],
+        "ignore": {
+          "useGitignore": true,
+          "useDefaultPatterns": true,
+          "customPatterns": [
+            ".cursorrules"
+          ]
+        },
+        "security": {
+          "enableSecurityCheck": true
+        }
+      }
+    '';
+  };
 }

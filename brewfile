@@ -1,0 +1,49 @@
+# Development Tools
+cask "docker"
+# cask "visual-studio-code"
+cask "cursor"
+cask "github"
+cask "postman"
+cask "db-browser-for-sqlite"
+
+# Communication Tools
+cask "discord"
+cask "notion"
+# cask "slack"
+cask "telegram"
+cask "zoom"
+
+# Utility Tools
+cask "syncthing"
+cask "rustdesk"
+
+# Entertainment Tools
+cask "vlc"
+cask "sonos"
+
+# Productivity Tools
+cask "rectangle"
+cask "raycast"
+cask "obsidian"
+
+# Browsers
+cask "google-chrome"
+cask "arc"
+cask "brave-browser"
+cask "firefox"
+
+# Microsoft Office Suite
+cask "microsoft-excel"
+cask "microsoft-word"
+cask "microsoft-onenote"
+cask "microsoft-teams"
+
+# Cloud Storage & Sync
+cask "google-drive"
+cask "megasync"
+cask "onedrive"
+
+# Security & Privacy
+cask "1password"
+cask "nordvpn"
+cask "proton-mail"
