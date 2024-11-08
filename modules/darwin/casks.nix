@@ -18,7 +18,7 @@ _:
 
   # Utility Tools
   "syncthing"
-  "anydesk"
+  "rustdesk"
 
   # Entertainment Tools
   "vlc"
