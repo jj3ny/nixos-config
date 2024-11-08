@@ -11,6 +11,14 @@ let user = "johnhughes"; in
      agenix.darwinModules.default
   ];
 
+  # Setup user shell
+  programs.zsh.enable = true;
+  environment.shells = with pkgs; [ zsh ];
+
+  # Ensure /etc/zshrc is created
+  programs.zsh.enableCompletion = true;
+  programs.zsh.enableBashCompletion = true;
+
   # Auto upgrade nix package and the daemon service.
   services.nix-daemon.enable = true;
 
