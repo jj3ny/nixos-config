@@ -52,16 +52,52 @@ let name = "John Hughes";
       shell() {
           nix-shell '<nixpkgs>' -A "$1"
       }
+      # Navigation Aliases - Quick access to frequent directories
+      alias dev="cd ~/Development"
+      alias legal="cd ~/Development/legal" 
+      alias exp="cd ~/Development/experimental"
+      alias research="cd ~/Development/research"
+      alias tools="cd ~/Development/tools"
+      alias odocs="cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents"
+      alias ocode="cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents/Code"
+      alias gdrive="cd /Users/johnhughes/Library/CloudStorage/GoogleDrive-john.j.hughes@gmail.com/'My Drive'"
 
-      # pnpm is a javascript package manager
-      alias pn=pnpm
-      alias px=pnpx
+      # Git Aliases - Streamlined git operations
+      alias g="git"
+      alias gs="git status"
+      alias ga="git add ."
+      alias gc="git commit -m"
+      alias gp="git push"
+      alias gl="git pull"
+      alias gco="git checkout"
+      alias gpr="git pull --rebase"
+      alias lg="lazygit"
 
-      # Use difftastic, syntax-aware diffing
-      alias diff=difft
+      # Development Aliases - Docker, Node.js and package management
+      alias dc="docker-compose"
+      alias dcu="docker-compose up -d"
+      alias dcd="docker-compose down"
+      alias pn="pnpm"
+      alias px="pnpx"
+      alias run="nodemon"
+      alias serve="live-server"
 
-      # Always color ls and group directories
-      alias ls='ls --color=auto'
+      # Enhanced CLI Replacements - Modern alternatives to classic commands
+      alias cat="bat"
+      alias ls="eza --icons"
+      alias ll="eza -lh --icons"
+      alias find="fd"
+      alias tree="broot"
+      alias diff="difft"
+
+      # System and Utility Aliases - System management and tools
+      alias update="nix-channel --update && nix-env -u"
+      alias edit="emacsclient -t"
+      alias search="rg --glob '!.git/*'"
+
+      # Nix Helper Command
+      alias helpme="cat ~/.aliases.helpme"          # Display this list of aliases
+      "alias ai="~/.local/bin/aihelp"               # AI help
     '';
   };
 

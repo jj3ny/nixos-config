@@ -65,4 +65,45 @@
       }
     '';
   };
+
+  ".aliases.helpme" = {
+    text = ''
+      # CLI Helper Tools Reference
+      echo "tldr: Shows simplified man pages for commands"
+      echo "fd: A faster, user-friendly alternative to 'find'"
+      echo "bat: Enhanced 'cat' with syntax highlighting"
+      echo "rg: A faster, more intuitive alternative to 'grep'"
+      echo "broot: An interactive 'tree' command for better directory exploration"
+      echo "delta: A better way to view git diffs with color and syntax highlighting"
+      echo "lazygit: A simple, terminal UI for git commands"
+      echo "difftastic: Syntax-aware diffing for better code comparison"
+
+      # To display this list, use the 'saveme' alias
+    '';
+  };
+
+  ".local/bin/aihelp" = {
+    text = ''
+      #!/bin/bash
+      ANTHROPIC_API_KEY=$(op read "op://codex/ANTHROPIC_API_KEY/credential")
+      
+      curl https://api.anthropic.com/v1/messages \
+           --header "x-api-key: $ANTHROPIC_API_KEY" \
+           --header "anthropic-version: 2023-06-01" \
+           --header "content-type: application/json" \
+           --data @- << EOF
+      {
+          "model": "claude-3-5-sonnet-20241022",
+          "max_tokens": 3000,
+          "messages": [
+              {
+                  "role": "user",
+                  "content": "Your task is to help a user who is in a shell environment understand how to handle an issue. Here's the user's query: $*"
+              }
+          ]
+      }
+      EOF
+    '';
+    executable = true;
+  };
 }
