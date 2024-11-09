@@ -89,6 +89,7 @@ let name = "John Hughes";
       alias serve="live-server"
       alias c="clear"
       alias h="history"
+      alias p="poetry run python"
       alias path='echo $PATH | tr ":" "\n"'
 
 
