@@ -75,10 +75,19 @@ in
       entries = [
         # { path = "/Applications/Slack.app/"; }
         { path = "/System/Applications/Mission Control.app/"; }
+        { path = "/System/Applications/Launchpad.app/"; }
+
+        # Browsers
         { path = "/Applications/Google Chrome.app/"; }
         { path = "/Applications/Arc.app/"; }
-        { path = "/Applications/Obsidian.app/"; }
+
+        # Development
         { path = "/Applications/Cursor.app/"; }
+
+        # Productivity
+        { path = "/Applications/Obsidian.app/"; }
+
+        # Communication & Media
         { path = "/System/Applications/Messages.app/"; }
         # { path = "/System/Applications/Facetime.app/"; }
         { path = "/System/Applications/Music.app/"; }
@@ -86,21 +95,29 @@ in
         { path = "/System/Applications/Photos.app/"; }
         # { path = "/System/Applications/Photo Booth.app/"; }
         # { path = "/System/Applications/TV.app/"; }
+
+        # System & Devices
         { path = "/System/Applications/Home.app/"; }
+        { path = "/System/Applications/iPhone Mirroring.app/"; } # For iPhone Mirroring
+        # {
+        #   path = toString myEmacsLauncher;
+        #   section = "others";
+        # }
+        # {
+        #   path = "${config.users.users.${user}.home}/.local/share/";
+        #   section = "others";
+        #   options = "--sort name --view grid --display folder";
+        # }
         {
-          path = toString myEmacsLauncher;
-          section = "others";
-        }
-        {
-          path = "${config.users.users.${user}.home}/.local/share/";
-          section = "others";
-          options = "--sort name --view grid --display folder";
-        }
-        {
-          path = "${config.users.users.${user}.home}/.local/share/downloads";
+          path = "${config.users.users.${user}.home}/downloads";
           section = "others";
           options = "--sort name --view grid --display stack";
         }
+        # {
+        #   path = "${config.users.users.${user}.home}/.local/share/downloads";
+        #   section = "others";
+        #   options = "--sort name --view grid --display stack";
+        # }
       ];
     };
   };
