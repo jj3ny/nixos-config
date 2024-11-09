@@ -52,6 +52,18 @@ let name = "John Hughes";
       shell() {
           nix-shell '<nixpkgs>' -A "$1"
       }
+
+
+      # pnpm is a javascript package manager
+      alias pn=pnpm
+      alias px=pnpx
+
+      # Use difftastic, syntax-aware diffing
+      alias diff=difft
+
+      # Always color ls and group directories
+      alias ls='ls --color=auto'
+            
       # Navigation Aliases - Quick access to frequent directories
       alias dev="cd ~/Development"
       alias legal="cd ~/Development/legal" 
