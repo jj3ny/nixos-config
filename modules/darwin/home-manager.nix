@@ -74,6 +74,7 @@ in
       enable = true;
       entries = [
         # { path = "/Applications/Slack.app/"; }
+        { path = "/System/Applications/Mission Control.app/"; }
         { path = "/Applications/Google Chrome.app/"; }
         { path = "/Applications/Arc.app/"; }
         { path = "/Applications/Obsidian.app/"; }
