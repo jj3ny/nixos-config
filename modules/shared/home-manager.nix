@@ -87,6 +87,10 @@ let name = "John Hughes";
       alias px="pnpx"
       alias run="nodemon"
       alias serve="live-server"
+      alias c="clear"
+      alias h="history"
+      alias path='echo $PATH | tr ":" "\n"'
+
 
       # Enhanced CLI Replacements - Modern alternatives to classic commands
       alias cat="bat"
