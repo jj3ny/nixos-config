@@ -89,11 +89,11 @@ let name = "John Hughes";
       alias serve="live-server"
 
       # Enhanced CLI Replacements - Modern alternatives to classic commands
-      # alias cat="bat"
+      alias cat="bat"
       # alias ls="eza --icons"
       alias ll="eza -lh --icons"
-      # alias find="fd"
-      # alias tree="broot"
+      alias find="fd"
+      alias tree="broot"
       alias diff="difft"
 
       # System and Utility Aliases - System management and tools
