@@ -16,12 +16,14 @@ nix run .#build-switch
 
 # Switch shell
 
+```sh
 nix build .#darwinConfigurations.x86_64-darwin.system
-nix build .#darwinConfigurations.aarch64-darwin.system
-
- ./result/sw/bin/darwin-rebuild switch --flake .#aarch64-darwin
  ./result/sw/bin/darwin-rebuild switch --flake .#x86_64-darwin
-
+ 
+ 
+ nix build .#darwinConfigurations.aarch64-darwin.system
+./result/sw/bin/darwin-rebuild switch --flake .#aarch64-darwin
+```
 
 ## Installing
 ## For macOS (November 2024)

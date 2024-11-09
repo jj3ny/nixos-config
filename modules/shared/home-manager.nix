@@ -37,7 +37,7 @@ let name = "John Hughes";
       export HISTIGNORE="pwd:ls:cd"
 
       # Ripgrep alias
-      alias search=rg -p --glob '!node_modules/*'  $@
+      alias search="rg --glob '!.git/*' --glob '!node_modules/*'"
 
       # Emacs is my editor
       export ALTERNATE_EDITOR=""
@@ -54,13 +54,7 @@ let name = "John Hughes";
       }
 
 
-      # pnpm is a javascript package manager
-      alias pn=pnpm
-      alias px=pnpx
-
-      # Use difftastic, syntax-aware diffing
-      alias diff=difft
-
+ 
       # Always color ls and group directories
       alias ls='ls --color=auto'
             
@@ -95,21 +89,20 @@ let name = "John Hughes";
       alias serve="live-server"
 
       # Enhanced CLI Replacements - Modern alternatives to classic commands
-      alias cat="bat"
-      alias ls="eza --icons"
+      # alias cat="bat"
+      # alias ls="eza --icons"
       alias ll="eza -lh --icons"
-      alias find="fd"
-      alias tree="broot"
+      # alias find="fd"
+      # alias tree="broot"
       alias diff="difft"
 
       # System and Utility Aliases - System management and tools
       alias update="nix-channel --update && nix-env -u"
       alias edit="emacsclient -t"
-      alias search="rg --glob '!.git/*'"
 
       # Nix Helper Command
       alias helpme="cat ~/.aliases.helpme"          # Display this list of aliases
-      "alias ai="~/.local/bin/aihelp"               # AI help
+      # alias ai="~/.local/bin/aihelp"               # AI help
     '';
   };
 
