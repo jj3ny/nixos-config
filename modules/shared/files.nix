@@ -51,7 +51,7 @@
           "showLineNumbers": false,
           "instructionFilePath": ""
         },
-        "include": ["**/*"],
+        "include": [],
         "ignore": {
           "useGitignore": true,
           "useDefaultPatterns": true,

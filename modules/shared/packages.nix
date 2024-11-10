@@ -38,9 +38,11 @@ with pkgs; [
   
   # Python Development
   python312                    # ^ UPGRADED from python39
-  poetry                       # + NEW: Dependency management
-  python312Packages.virtualenv # ^ UPGRADED from python39
   python312Packages.tkinter    # + NEW: Python GUI toolkit
+  tcl
+  tk
+  python312Packages.virtualenv # ^ UPGRADED from python39
+  poetry                       # + NEW: Dependency management
   black                        # = KEPT: Formatter
   
   # Node.js Development

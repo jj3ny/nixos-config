@@ -8,6 +8,7 @@ _:
   "github"
   "postman"
   "db-browser-for-sqlite"
+  "araxis-merge"
 
   # Communication Tools
   "discord"
