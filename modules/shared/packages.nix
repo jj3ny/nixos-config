@@ -51,6 +51,7 @@ with pkgs; [
   nodePackages.prettier    # = KEPT
   nodePackages.nodemon     # = KEPT
   nodePackages.live-server # = KEPT
+  nodePackages.serverless  # + NEW
   # nodePackages.repomix   # + NEW: Repo access for AI (disabled)
   
   # Document & PDF Tools (All New)
