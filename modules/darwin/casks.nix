@@ -20,6 +20,7 @@ _:
   # Utility Tools
   "syncthing"
   "rustdesk"
+  "windows-app"
 
   # Entertainment Tools
   "vlc"
@@ -29,6 +30,7 @@ _:
   "rectangle"
   "raycast"
   "obsidian"
+  "chatgpt"
 
   # Browsers
   "google-chrome"

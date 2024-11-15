@@ -60,6 +60,7 @@ with pkgs; [
   ocrmypdf      # + NEW: PDF OCR
   pdftk         # + NEW: PDF toolkit
   glow            # ^ MOVED from Media category
+  ollama          # + NEW: LLM CLI
   
   # Media & File Processing
   ffmpeg        # = KEPT
