@@ -53,4 +53,5 @@ _:
   "1password"
   "nordvpn"
   "proton-mail"
+  "veracrypt"
 ]

@@ -27,6 +27,7 @@ cask "sonos"
 cask "rectangle"
 cask "raycast"
 cask "obsidian"
+cask "chatgpt"
 
 # Browsers
 cask "google-chrome"
@@ -39,6 +40,8 @@ cask "microsoft-excel"
 cask "microsoft-word"
 cask "microsoft-onenote"
 cask "microsoft-teams"
+# Required for Microsoft Office apps to receive updates
+cask "microsoft-auto-update"
 
 # Cloud Storage & Sync
 cask "google-drive"
@@ -49,3 +52,17 @@ cask "onedrive"
 cask "1password"
 cask "nordvpn"
 cask "proton-mail"
+cask "veracrypt"
+
+# System & Package Management
+# Required: Main tap for installing GUI applications via Homebrew
+tap "homebrew/cask"
+
+# Mac App Store CLI - Allows installing & managing App Store apps via command line
+# Usage examples:
+#   mas search Xcode     # Search for apps
+#   mas install 497799835  # Install app by ID
+#   mas list            # List installed apps
+#   mas outdated        # Show apps with updates
+#   mas upgrade         # Upgrade all apps
+brew "mas"

@@ -77,27 +77,30 @@ in
         { path = "/System/Applications/Mission Control.app/"; }
         { path = "/System/Applications/Launchpad.app/"; }
 
-        # Browsers
-        { path = "/Applications/Google Chrome.app/"; }
-        { path = "/Applications/Arc.app/"; }
-
         # Development
         { path = "/Applications/Cursor.app/"; }
+        { path = "/Applications/Nix Apps/Warp.app/"; }
+        { path = "/Applications/GitHub Desktop.app/"; }
 
         # Productivity
         { path = "/Applications/Obsidian.app/"; }
+        { path = "/Applications/ChatGPT.app/"; }
+
+        # Browsers
+        { path = "/Applications/Arc.app/"; }
+        { path = "/Applications/Google Chrome.app/"; }
 
         # Communication & Media
         { path = "/System/Applications/Messages.app/"; }
         # { path = "/System/Applications/Facetime.app/"; }
         { path = "/System/Applications/Music.app/"; }
         # { path = "/System/Applications/News.app/"; }
-        { path = "/System/Applications/Photos.app/"; }
+        #{ path = "/System/Applications/Photos.app/"; }
         # { path = "/System/Applications/Photo Booth.app/"; }
         # { path = "/System/Applications/TV.app/"; }
 
         # System & Devices
-        { path = "/System/Applications/Home.app/"; }
+        # { path = "/System/Applications/Home.app/"; }
         { path = "/System/Applications/iPhone Mirroring.app/"; } # For iPhone Mirroring
         # {
         #   path = toString myEmacsLauncher;
