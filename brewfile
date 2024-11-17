@@ -18,6 +18,7 @@ cask "zoom"
 cask "syncthing"
 cask "rustdesk"
 cask "windows-app"
+cask "anydesk"
 
 # Entertainment Tools
 cask "vlc"

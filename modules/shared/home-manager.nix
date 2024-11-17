@@ -21,6 +21,53 @@ let name = "John Hughes";
           file = "p10k.zsh";
       }
     ];
+    shellAliases = {
+      # Navigation Aliases
+      dev = "cd ~/Development";
+      legal = "cd ~/Development/legal";
+      exp = "cd ~/Development/experimental";
+      research = "cd ~/Development/research";
+      tools = "cd ~/Development/tools";
+      odocs = "cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents";
+      ocode = "cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents/Code";
+      gdrive = "cd /Users/johnhughes/Library/CloudStorage/GoogleDrive-john.j.hughes@gmail.com/'My Drive'";
+      
+      # Git Aliases
+      g = "git";
+      gs = "git status";
+      ga = "git add .";
+      gc = "git commit -m";
+      gp = "git push";
+      gl = "git pull";
+      gco = "git checkout";
+      gpr = "git pull --rebase";
+      lg = "lazygit";
+      
+      # Development Aliases
+      dc = "docker-compose";
+      dcu = "docker-compose up -d";
+      dcd = "docker-compose down";
+      pn = "pnpm";
+      px = "pnpx";
+      run = "nodemon";
+      serve = "live-server";
+      c = "clear";
+      h = "history";
+      p = "poetry run python";
+      path = "echo $PATH | tr ':' '\n'";
+      
+      # Enhanced CLI Replacements
+      cat = "bat";
+      ll = "eza -lh --icons";
+      find = "fd";
+      tree = "broot";
+      diff = "difft";
+      
+      # System and Utility Aliases
+      update = "nix-channel --update && nix-env -u";
+      edit = "emacsclient -t";
+      search = "rg --glob '!.git/*' --glob '!node_modules/*'";
+    };
     initExtraFirst = ''
       if [[ -f /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh ]]; then
         . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
@@ -53,8 +100,6 @@ let name = "John Hughes";
           nix-shell '<nixpkgs>' -A "$1"
       }
 
-
- 
       # Always color ls and group directories
       alias ls='ls --color=auto'
             

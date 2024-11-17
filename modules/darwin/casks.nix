@@ -20,6 +20,7 @@ _:
   # Utility Tools
   "syncthing"
   "rustdesk"
+  "anydesk"
   "windows-app"
 
   # Entertainment Tools
@@ -54,4 +55,5 @@ _:
   "nordvpn"
   "proton-mail"
   "veracrypt"
+  "macfuse" # needed for veracrypt
 ]

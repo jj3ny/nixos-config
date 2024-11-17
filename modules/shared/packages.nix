@@ -126,10 +126,10 @@ with pkgs; [
   aspellDicts.en # = KEPT
   hunspell       # = KEPT
   
+  # other
+  realvnc-vnc-viewer
+
   # Removed Categories:
   # - All PHP packages and tools
   # - Most infrastructure tools (Terraform etc.)
-] ++ (if pkgs.stdenv.isLinux then [
-  # Linux-only packages
-  veracrypt      # Disk encryption (Linux only)
-] else [ ])
+]
