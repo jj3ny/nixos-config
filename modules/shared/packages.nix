@@ -9,6 +9,7 @@ with pkgs; [
   thefuck       # + NEW: Command correction
   mcfly         # + NEW: Smart history search
   # atuin         # + NEW: AI-powered history (disabled)
+  direnv        # + NEW: Environment configuration for Nix by directory
   
   # Modern CLI Tools
   bat           # = KEPT: Better cat
