@@ -69,6 +69,11 @@ let name = "John Hughes";
       search = "rg --glob '!.git/*' --glob '!node_modules/*'";
     };
     initExtraFirst = ''
+      # Add direnv hook
+      if command -v direnv >/dev/null 2>&1; then
+        eval "$(direnv hook zsh)"
+      fi
+      
       if [[ -f /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh ]]; then
         . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
         . /nix/var/nix/profiles/default/etc/profile.d/nix.sh
