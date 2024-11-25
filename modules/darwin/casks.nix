@@ -32,6 +32,7 @@ _:
   "raycast"
   "obsidian"
   "chatgpt"
+  "claude"
 
   # Browsers
   "google-chrome"

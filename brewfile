@@ -29,6 +29,7 @@ cask "rectangle"
 cask "raycast"
 cask "obsidian"
 cask "chatgpt"
+cask "claude"
 
 # Browsers
 cask "google-chrome"
