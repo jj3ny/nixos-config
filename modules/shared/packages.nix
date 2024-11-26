@@ -101,6 +101,7 @@ with pkgs; [
   openssh           # = KEPT
   _1password-cli        # - REMOVED: Using system app
   # - libfido2      # - REMOVED: Not essential
+  openvpn           # + NEW: OpenVPN client
   
   # Fonts & Display
   jetbrains-mono           # = KEPT
