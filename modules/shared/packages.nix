@@ -37,16 +37,17 @@ with pkgs; [
   gcc                # = KEPT
   pandoc             # = KEPT
   
-  # Python Development
-  python312                    # ^ UPGRADED from python39
-  python312Packages.tkinter    # + NEW: Python GUI toolkit
-  tcl
-  tk
-  python312Packages.virtualenv # ^ UPGRADED from python39
-  poetry                       # + NEW: Dependency management
-  black                        # = KEPT: Formatter
-  
-  # Node.js Development
+# Python Development
+  python312                    # Keep: Still useful as system Python
+  python312Packages.tkinter    # Keep: If you need GUI development
+  tcl                         # Keep: Required for tkinter
+  tk                          # Keep: Required for tkinter
+  # python312Packages.virtualenv # Remove: uv handles this better
+  # poetry                     # Remove: Replace with uv
+  uv                          # New package manager
+  black                       # Keep: Still useful as system tool
+
+# Node.js Development
   nodejs                   # = KEPT
   nodePackages.pnpm         # = KEPT
   nodePackages.prettier    # = KEPT
@@ -102,7 +103,7 @@ with pkgs; [
   _1password-cli        # - REMOVED: Using system app
   # - libfido2      # - REMOVED: Not essential
   openvpn           # + NEW: OpenVPN client
-  
+   
   # Fonts & Display
   jetbrains-mono           # = KEPT
   noto-fonts              # = KEPT
