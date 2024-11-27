@@ -24,6 +24,7 @@ with pkgs; [
   bottom      # + NEW: Modern system monitor
   xh          # + NEW: Curl alternative
   dog         # + NEW: Dig alternative
+  glances     # + NEW: System monitor
   
   # Core Development
   git                # = KEPT
