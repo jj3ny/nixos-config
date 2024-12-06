@@ -40,7 +40,7 @@ with pkgs; [
   
 # Python Development
   python312                    # Keep: Still useful as system Python
-  python312Packages.tkinter    # Keep: If you need GUI development
+  python312.pkgs.tkinter    # Keep: If you need GUI development
   tcl                         # Keep: Required for tkinter
   tk                          # Keep: Required for tkinter
   # python312Packages.virtualenv # Remove: uv handles this better
@@ -60,7 +60,7 @@ with pkgs; [
   # Document & PDF Tools (All New)
   poppler_utils # + NEW: PDF utilities
   tesseract     # + NEW: OCR engine
-  ocrmypdf      # + NEW: PDF OCR
+  # ocrmypdf      # + NEW: PDF OCR
   pdftk         # + NEW: PDF toolkit
   glow            # ^ MOVED from Media category
   ollama          # + NEW: LLM CLI
