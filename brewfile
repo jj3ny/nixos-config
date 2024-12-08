@@ -54,7 +54,6 @@ cask "onedrive"
 cask "1password"
 cask "nordvpn"
 cask "proton-mail"
-cask "veracrypt"
 
 # System & Package Management
 # Required: Main tap for installing GUI applications via Homebrew

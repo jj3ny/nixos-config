@@ -84,6 +84,7 @@ in
         # Productivity
         { path = "/Applications/Obsidian.app/"; }
         { path = "/Applications/ChatGPT.app/"; }
+        { path = "/Applications/Claude.app/"; }
         { path = "/Applications/GitHub Desktop.app/"; }
 
         # Browsers

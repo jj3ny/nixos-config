@@ -55,6 +55,4 @@ _:
   "1password"
   "nordvpn"
   "proton-mail"
-  "veracrypt"
-  "macfuse" # needed for veracrypt
 ]
