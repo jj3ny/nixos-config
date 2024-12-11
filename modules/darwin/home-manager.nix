@@ -80,12 +80,13 @@ in
         # Development
         { path = "/Applications/Cursor.app/"; }
         { path = "/Applications/Nix Apps/Warp.app/"; }
+        { path = "/Applications/GitHub Desktop.app/"; }
+        { path = "/Applications/Docker.app/"; }
 
         # Productivity
         { path = "/Applications/Obsidian.app/"; }
         { path = "/Applications/ChatGPT.app/"; }
         { path = "/Applications/Claude.app/"; }
-        { path = "/Applications/GitHub Desktop.app/"; }
 
         # Browsers
         { path = "/Applications/Arc.app/"; }
@@ -94,8 +95,8 @@ in
         # Communication & Media
         { path = "/System/Applications/Messages.app/"; }
         # { path = "/System/Applications/Facetime.app/"; }
-        { path = "/System/Applications/Music.app/"; }
-        { path = "/System/Applications/Sonos.app/"; }
+        #{ path = "/System/Applications/Music.app/"; }
+        #{ path = "/System/Applications/Sonos.app/"; }
         # { path = "/System/Applications/News.app/"; }
         #{ path = "/System/Applications/Photos.app/"; }
         # { path = "/System/Applications/Photo Booth.app/"; }

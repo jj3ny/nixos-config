@@ -32,6 +32,11 @@ let name = "John Hughes";
       ocode = "cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents/Code";
       gdrive = "cd /Users/johnhughes/Library/CloudStorage/GoogleDrive-john.j.hughes@gmail.com/'My Drive'";
       
+      codex = "cd ~/Development/legal/codex";
+      myscraper = "cd ~/Development/tools/myscraper";
+      llm = "cd ~/Development/research/llm";
+      ui = "cd ~/Development/research/ui";
+
       # Git Aliases
       g = "git";
       gs = "git status";
