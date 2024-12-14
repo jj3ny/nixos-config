@@ -47,6 +47,7 @@ with pkgs; [
   # poetry                     # Remove: Replace with uv
   uv                          # New package manager
   black                       # Keep: Still useful as system tool
+  ruff                       # Added: Python linter
 
 # Node.js Development
   nodejs                   # = KEPT
