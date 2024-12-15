@@ -64,7 +64,7 @@ let name = "John Hughes";
       # Enhanced CLI Replacements
       cat = "bat";
       ll = "eza -lh --icons";
-      find = "fd";
+      # find = "fd";
       tree = "broot";
       diff = "difft";
       
@@ -152,7 +152,7 @@ let name = "John Hughes";
       alias cat="bat"
       # alias ls="eza --icons"
       alias ll="eza -lh --icons"
-      alias find="fd"
+      # alias find="fd"
       alias tree="broot"
       alias diff="difft"
 
