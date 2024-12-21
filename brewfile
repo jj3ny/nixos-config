@@ -30,6 +30,7 @@ cask "raycast"
 cask "obsidian"
 cask "chatgpt"
 cask "claude"
+cask "marked"
 
 # Browsers
 cask "google-chrome"
