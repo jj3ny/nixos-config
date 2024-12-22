@@ -46,6 +46,7 @@ _:
   "microsoft-word"
   "microsoft-onenote"
   "microsoft-teams"
+  "microsoft-powerpoint"
 
   # Cloud Storage & Sync
   "google-drive"
