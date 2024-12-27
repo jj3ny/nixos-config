@@ -20,6 +20,7 @@ cask "rustdesk"
 cask "windows-app"
 cask "anydesk"
 cask "x2goclient"
+cask "xquartz"
 
 # Entertainment Tools
 cask "vlc"

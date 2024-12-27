@@ -23,6 +23,7 @@ _:
   "anydesk"
   "windows-app"
   "x2goclient"
+  "xquartz"
 
   # Entertainment Tools
   "vlc"
