@@ -38,6 +38,10 @@
     text = "";
   };
 
+  "Development/career/startup/.keep" = {
+    text = "";
+  };
+  
   ".config/repomix/repomix.config.json" = {
     text = ''
       {

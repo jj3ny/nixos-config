@@ -116,6 +116,10 @@ let name = "John Hughes";
       # Navigation Aliases - Quick access to frequent directories
       alias dev="cd ~/Development"
       alias legal="cd ~/Development/legal" 
+      alias codex="cd ~/Development/legal/codex"
+      alias batch="cd ~/Development/legal/batch-agent"
+      alias scraper="cd ~/Development/tools/scraper"
+      alias firecrawl="cd ~/Development/tools/firecrawl"
       alias exp="cd ~/Development/experimental"
       alias research="cd ~/Development/research"
       alias tools="cd ~/Development/tools"

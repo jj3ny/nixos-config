@@ -22,6 +22,7 @@ _:
   "rustdesk"
   "anydesk"
   "windows-app"
+  "x2goclient"
 
   # Entertainment Tools
   "vlc"

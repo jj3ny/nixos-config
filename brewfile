@@ -19,6 +19,7 @@ cask "syncthing"
 cask "rustdesk"
 cask "windows-app"
 cask "anydesk"
+cask "x2goclient"
 
 # Entertainment Tools
 cask "vlc"
