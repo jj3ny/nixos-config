@@ -35,7 +35,6 @@ _:
   "obsidian"
   "chatgpt"
   "claude"
-  "marked"
 
   # Browsers
   "google-chrome"
