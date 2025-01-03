@@ -45,12 +45,12 @@ cask "microsoft-excel"
 cask "microsoft-word"
 cask "microsoft-onenote"
 cask "microsoft-teams"
+cask "microsoft-powerpoint"
 # Required for Microsoft Office apps to receive updates
 cask "microsoft-auto-update"
 
 # Cloud Storage & Sync
-cask "google-drive"
-cask "megasync"
+# cask "google-drive"
 cask "onedrive"
 
 # Security & Privacy

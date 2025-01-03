@@ -51,8 +51,7 @@ _:
   "microsoft-powerpoint"
 
   # Cloud Storage & Sync
-  "google-drive"
-  "megasync"
+  # "google-drive"
   "onedrive"
 
   # Security & Privacy
