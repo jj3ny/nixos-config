@@ -51,7 +51,7 @@ _:
 
   # Cloud Storage & Sync
   # "google-drive"
-  "onedrive"
+  # "onedrive"
 
   # Security & Privacy
   "1password"

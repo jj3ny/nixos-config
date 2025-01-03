@@ -51,7 +51,7 @@ cask "microsoft-auto-update"
 
 # Cloud Storage & Sync
 # cask "google-drive"
-cask "onedrive"
+# cask "onedrive"
 
 # Security & Privacy
 cask "1password"
