@@ -387,6 +387,18 @@ let name = "John Hughes";
           )
         ];
       };
+      "192.168.0.134" = {
+        user = "john-hughes";
+        identitiesOnly = true;
+        identityFile = [
+          (lib.mkIf pkgs.stdenv.hostPlatform.isLinux
+            "/home/${user}/.ssh/id_ed25519"
+          )
+          (lib.mkIf pkgs.stdenv.hostPlatform.isDarwin
+            "/Users/${user}/.ssh/id_ed25519"
+          )
+        ];
+      };
     };
   };
 
