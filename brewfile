@@ -50,7 +50,7 @@ cask "microsoft-powerpoint"
 cask "microsoft-auto-update"
 
 # Cloud Storage & Sync
-# cask "google-drive"
+cask "google-drive"
 # cask "onedrive"
 
 # Security & Privacy

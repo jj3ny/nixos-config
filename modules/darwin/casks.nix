@@ -50,7 +50,7 @@ _:
   "microsoft-powerpoint"
 
   # Cloud Storage & Sync
-  # "google-drive"
+  "google-drive"
   # "onedrive"
 
   # Security & Privacy
