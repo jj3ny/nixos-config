@@ -435,7 +435,7 @@ let name = "John Hughes";
       }
     ];
     terminal = "screen-256color";
-    prefix = "C-x";
+    prefix = "C-b";
     escapeTime = 10;
     historyLimit = 50000;
     extraConfig = ''
