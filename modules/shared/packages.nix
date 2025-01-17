@@ -48,16 +48,15 @@ with pkgs; [
   uv                          # New package manager
   black                       # Keep: Still useful as system tool
   ruff                       # Added: Python linter
-
 # Node.js Development
-  nodejs                   # = KEPT
+  nodejs_22                # = UPDATED: Using Node.js 22
   nodePackages.pnpm         # = KEPT
   nodePackages.prettier    # = KEPT
   nodePackages.nodemon     # = KEPT
   nodePackages.live-server # = KEPT
   nodePackages.serverless  # + NEW
   # nodePackages.repomix   # + NEW: Repo access for AI (disabled)
-  
+
   # Document & PDF Tools (All New)
   poppler_utils # + NEW: PDF utilities
   tesseract     # + NEW: OCR engine
@@ -92,6 +91,7 @@ with pkgs; [
   # vim              # + NEW (disabled)
   warp-terminal      # + NEW: AI-powered terminal
   tmux               # = KEPT
+  speedtest-cli      # + NEW: Internet speed test
   # - alacritty      # - REMOVED: Using Warp instead
   # - neofetch       # - REMOVED: Not essential
   # - slack          # - REMOVED: Using system app
