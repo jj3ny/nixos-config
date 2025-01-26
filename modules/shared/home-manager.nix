@@ -119,6 +119,7 @@ let name = "John Hughes";
       alias codex="cd ~/Development/legal/codex"
       alias batch="cd ~/Development/legal/batch-agent"
       alias scraper="cd ~/Development/tools/scraper"
+      alias parser="cd ~/Development/tools/parser"
       alias firecrawl="cd ~/Development/tools/firecrawl"
       alias exp="cd ~/Development/experimental"
       alias research="cd ~/Development/research"
