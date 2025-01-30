@@ -28,9 +28,6 @@ let name = "John Hughes";
       exp = "cd ~/Development/experimental";
       research = "cd ~/Development/research";
       tools = "cd ~/Development/tools";
-      odocs = "cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents";
-      ocode = "cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents/Code";
-      gdrive = "cd /Users/johnhughes/Library/CloudStorage/GoogleDrive-john.j.hughes@gmail.com/'My Drive'";
       
       codex = "cd ~/Development/legal/codex";
       myscraper = "cd ~/Development/tools/myscraper";
@@ -124,9 +121,6 @@ let name = "John Hughes";
       alias exp="cd ~/Development/experimental"
       alias research="cd ~/Development/research"
       alias tools="cd ~/Development/tools"
-      alias odocs="cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents"
-      alias ocode="cd /Users/johnhughes/Library/CloudStorage/OneDrive-Personal/Documents/Code"
-      alias gdrive="cd /Users/johnhughes/Library/CloudStorage/GoogleDrive-john.j.hughes@gmail.com/'My Drive'"
 
       # Git Aliases - Streamlined git operations
       alias g="git"
