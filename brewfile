@@ -2,6 +2,7 @@
 cask "docker"
 # cask "visual-studio-code"
 cask "cursor"
+cask "windsurf"
 cask "github"
 cask "postman"
 cask "db-browser-for-sqlite"
