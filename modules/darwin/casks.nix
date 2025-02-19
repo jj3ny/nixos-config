@@ -5,6 +5,7 @@ _:
   "homebrew/cask/docker"
   # "visual-studio-code"
   "cursor"
+  "windsurf"
   "github"
   "postman"
   "db-browser-for-sqlite"

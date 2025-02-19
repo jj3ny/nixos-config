@@ -3,12 +3,11 @@
 let user = "johnhughes"; in
 
 {
-
   imports = [
     ../../modules/darwin/secrets.nix
     ../../modules/darwin/home-manager.nix
     ../../modules/shared
-     agenix.darwinModules.default
+    agenix.darwinModules.default
   ];
 
   # Setup user shell
@@ -18,9 +17,6 @@ let user = "johnhughes"; in
   # Ensure /etc/zshrc is created
   programs.zsh.enableCompletion = true;
   programs.zsh.enableBashCompletion = true;
-
-  # Auto upgrade nix package and the daemon service.
-  services.nix-daemon.enable = true;
 
   # Setup user, packages, programs
   nix = {
@@ -32,7 +28,6 @@ let user = "johnhughes"; in
     };
 
     gc = {
-      user = "root";
       automatic = true;
       interval = { Weekday = 0; Hour = 2; Minute = 0; };
       options = "--delete-older-than 30d";

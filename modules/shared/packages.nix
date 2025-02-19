@@ -32,11 +32,14 @@ with pkgs; [
   delta              # + NEW: Git diff tool
   gh                 # = KEPT: GitHub CLI
   copilot-cli        # + NEW: GitHub Copilot
-  # - git-filter-repo  # - REMOVED: Specialized tool
   curl               # + NEW
+  openssl            # + NEW: SSL/TLS toolkit
+  lz4                # + NEW: High-speed compression
   wget               # = KEPT
   gcc                # = KEPT
   pandoc             # = KEPT
+  cmake              # + NEW: Build system generator
+
   
 # Python Development
   python312                    # Keep: Still useful as system Python
