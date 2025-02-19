@@ -14,6 +14,11 @@ nix run .#build-switch
 > [!CAUTION]
 > `~/.zshrc` will be replaced with the [`zsh` configuration](https://github.com/dustinlyons/nixos-config/blob/main/templates/starter/modules/shared/home-manager.nix#L8) from this repository. Make sure this is what you want.
 
+# Update
+```sh
+nix flake update
+```
+
 # Switch shell
 
 ```sh
