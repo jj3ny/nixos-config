@@ -3,6 +3,8 @@
 let user = "johnhughes"; in
 
 {
+  ids.gids.nixbld = 350;
+
   imports = [
     ../../modules/darwin/secrets.nix
     ../../modules/darwin/home-manager.nix
