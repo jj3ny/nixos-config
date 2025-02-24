@@ -58,6 +58,7 @@ with pkgs; [
   nodePackages.nodemon     # = KEPT
   nodePackages.live-server # = KEPT
   nodePackages.serverless  # + NEW
+  # nodePackages."@anthropic-ai/claude-code" # + NEW
   # nodePackages.repomix   # + NEW: Repo access for AI (disabled)
 
   # Document & PDF Tools (All New)

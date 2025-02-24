@@ -79,7 +79,7 @@ in
 
         # Development
         { path = "/Applications/Cursor.app/"; }
-        { path = "/Applications/Nix Apps/Warp.app/"; }
+        { path = "/Applications/Warp.app/"; }
         { path = "/Applications/GitHub Desktop.app/"; }
         { path = "/Applications/Docker.app/"; }
 
