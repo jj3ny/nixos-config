@@ -39,7 +39,7 @@ with pkgs; [
   gcc                # = KEPT
   pandoc             # = KEPT
   cmake              # + NEW: Build system generator
-
+  
   
 # Python Development
   python312                    # Keep: Still useful as system Python

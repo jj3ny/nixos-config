@@ -30,6 +30,9 @@ _:
   "vlc"
   "sonos"
 
+  # Office & Productivity
+  "libreoffice"
+
   # Productivity Tools
   "rectangle"
   "raycast"
